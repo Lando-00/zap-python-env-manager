@@ -1,0 +1,12 @@
+[project]
+name            = "zap"
+version         = "0.1.0"
+description     = "ZAP: lightweight multi-Python venv manager"
+authors         = [{ name = "Lovanto George", email = "lovantog@gmail.com" }]
+requires-python = ">=3.7"
+readme          = "README.md"
+license         = { text = "MIT" }      # or any licence you prefer
+dependencies    = []                    # zero runtime deps
+
+[project.scripts]        # ← console entry-point
+zap = "zap:main"         # module:function  (zap.py defines main())
